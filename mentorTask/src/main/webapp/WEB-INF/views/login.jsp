@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	${invalid}
 	<form:form action="/submitlogin" method="post" modelAttribute="user">
 		<table>
 			<tr>

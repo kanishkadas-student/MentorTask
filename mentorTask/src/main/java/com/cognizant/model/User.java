@@ -16,6 +16,11 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public User(String userName, String password) {
+		super();
+		this.userName = userName;
+		this.password = password;
+	}
 	
 	
 }
